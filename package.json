@@ -10,18 +10,20 @@
     "redux": "^3.7.2"
   },
   "devDependencies": {
-    "webpack": "^3.2.0",
-    "style-loader": "^0.13.2",
-    "css-loader": "^0.26.2",
     "babel-core": "^6.23.1",
     "babel-loader": "^6.4.0",
     "babel-preset-es2015": "^6.22.0",
     "babel-preset-react": "^6.23.0",
+    "css-loader": "^0.26.2",
     "node-sass": "^4.5.0",
-    "sass-loader": "^6.0.3"
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.13.2",
+    "webpack": "^3.2.0",
+    "webpack-dev-server": "^2.5.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --inline --hot"
   },
   "author": "",
   "license": "ISC"
